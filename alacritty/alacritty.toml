@@ -1,5 +1,7 @@
 [window]
 startup_mode = "Maximized"
+opacity = 0.95
+blur = true
 [font]
 normal = { family = "VictorMono Nerd Font", style = "Regular" }
 size = 15.0
