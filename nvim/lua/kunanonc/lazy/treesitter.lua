@@ -4,7 +4,7 @@ return {
     build = ":TSUpdate",
     main = 'nvim-treesitter.configs',
     opts = {
-        ensure_installed = { "vim", "vimdoc", "lua", "go" },
+        ensure_installed = { "vim", "vimdoc", "lua", "go", "http" },
         auto_install = true,
         indent = {
             enable = true

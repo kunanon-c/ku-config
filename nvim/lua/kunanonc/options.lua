@@ -34,3 +34,9 @@ vim.g.loaded_perl_provider = 0
 vim.schedule(function()
   vim.opt.clipboard = 'unnamedplus'
 end)
+
+vim.filetype.add({
+  extension = {
+    ['http'] = 'http',
+  },
+})
